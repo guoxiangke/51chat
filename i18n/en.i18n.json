@@ -5,6 +5,12 @@
   "footer": {
 
   },
+  "products": {
+    "Acquire": "Acquire",
+    "Engage" : "Engage",
+    "Educate" : "Educate",
+    "Resolve" : "Resolve"
+  },
   "pages": {
     "global": {
       "pageNotFound": "Page not found"

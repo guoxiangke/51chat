@@ -5,12 +5,18 @@
   "footer": {
 
   },
+  "products": {
+    "Acquire": "获取用户",
+    "Engage" : "挖掘用户",
+    "Educate" : "教育用户",
+    "Resolve" : "用户满意方案"
+  },
   "pages": {
     "global": {
       "pageNotFound": "Page not found"
     },
     "homepage": {
-      "p1"  : "Communicating with customers shouldn’t be this hard.",
+      "p1"  : "您和用户的沟通不该这样难！",
       "p2"  : "无忧洽客，简单方便，精彩无限！",
       "p3"  : "请输入您的邮箱",
       "p4"  : "立即试用",
