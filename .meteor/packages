@@ -24,6 +24,9 @@ shell-server@0.2.3            # Server-side component of the `meteor shell` comm
 orionjs:core
 orionjs:pages
 
+## Styles
+#orionjs:bootstrap
+#twbs:bootstrap
 nicolaslopezj:orion-admin-only-bootstrap
 
 ## Router
@@ -37,16 +40,21 @@ orionjs:file-attribute
 orionjs:image-attribute
 
 ## Editor
+orionjs:froala
 orionjs:summernote
 malkesh:trumbowyg
+#froala:editor #https://www.froala.com/wysiwyg-editor https://atmospherejs.com/froala/editor
+
 less
-orionjs:froala
+
+#nicolaslopezj:orion-ga
 
 ## i18n
 tap:i18n
 softwarerero:accounts-t9n
 #loongmxbt:orion-lang-zh-cn
 
+## Export
 nicolaslopezj:orion-exporter
 
 
