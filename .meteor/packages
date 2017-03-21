@@ -17,8 +17,14 @@ es5-shim@4.6.15                # ECMAScript 5 compatibility for older browsers.
 ecmascript@0.6.3              # Enable ECMAScript2015+ syntax in app code
 shell-server@0.2.3            # Server-side component of the `meteor shell` command
 
-#autopublish@1.0.7             # Publish all data to the clients (for prototyping)
-#insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
+autopublish@1.0.7             # Publish all data to the clients (for prototyping)
+insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
+
+
+# standard libraries
+#jquery@1.11.10
+#underscore@1.0.10
+less@2.7.9
 
 ## Orion
 orionjs:core
@@ -33,6 +39,8 @@ nicolaslopezj:orion-admin-only-bootstrap
 kadira:flow-router
 kadira:blaze-layout
 
+##Attributes
+
 ## Files
 orionjs:filesystem
 vsivsi:orion-file-collection
@@ -40,21 +48,29 @@ orionjs:file-attribute
 orionjs:image-attribute
 
 ## Editor
-orionjs:froala
 orionjs:summernote
 malkesh:trumbowyg
 #froala:editor #https://www.froala.com/wysiwyg-editor https://atmospherejs.com/froala/editor
 
-less
-
-#nicolaslopezj:orion-ga
-
 ## i18n
 tap:i18n
-softwarerero:accounts-t9n
 #loongmxbt:orion-lang-zh-cn
+
+
+## Test
+msavin:mongol@2.0.1
 
 ## Export
 nicolaslopezj:orion-exporter
 
 
+nicolaslopezj:orion-ga
+orionjs:froala
+
+
+#Newer versions of the following indirect dependencies are available:
+#aldeed:autoform@6.0.0
+#aldeed:collection2@2.10.0
+#aldeed:tabular@2.1.1
+#froala:editor@2.5.1
+#meteortoys:toykit@3.0.4
