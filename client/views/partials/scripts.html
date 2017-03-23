@@ -7,9 +7,9 @@ domain = domain?domain:'www.51chat.com';
 (function(w, d, s, u) {
   w.liveChat = function(c) { w.liveChat._.push(c) }; w.liveChat._ = []; w.liveChat.url = u;w.liveChat.color = color;
   var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
-  j.async = true; j.src = 'http://live.51chat.net/packages/rocketchat_livechat/assets/51chat.js';
+  j.async = true; j.src = '//live.51chat.net/packages/rocketchat_livechat/assets/51chat.js';
   h.parentNode.insertBefore(j, h);
-})(window, document, 'script', 'http://live.51chat.net/livechat?domain='+domain+'&color='+color);
+})(window, document, 'script', '//live.51chat.net/livechat?domain='+domain+'&color='+color);
 </script>
 <!-- End of 51Chat.net Livechat Script -->
 </head>

@@ -3,7 +3,7 @@
 #
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
-
+meteor-platform
 meteor-base@1.0.4             # Packages every Meteor app needs to have
 mobile-experience@1.0.4       # Packages for a great mobile UX
 mongo@1.1.16                   # The database Meteor supports right now
@@ -22,8 +22,7 @@ insecure@1.0.7                # Allow all DB writes from clients (for prototypin
 
 
 # standard libraries
-#jquery@1.11.10
-#underscore@1.0.10
+jquery
 less@2.7.9
 
 ## Orion
@@ -31,7 +30,6 @@ orionjs:core
 orionjs:pages
 
 ## Styles
-#orionjs:bootstrap
 #twbs:bootstrap
 nicolaslopezj:orion-admin-only-bootstrap
 
@@ -48,8 +46,10 @@ orionjs:file-attribute
 orionjs:image-attribute
 
 ## Editor
-orionjs:summernote
-malkesh:trumbowyg
+#orionjs:summernote
+#orionjs:froala
+#orionjs:froala-editor
+#malkesh:trumbowyg #A lightweight WYSIWYG editor.
 #froala:editor #https://www.froala.com/wysiwyg-editor https://atmospherejs.com/froala/editor
 
 ## i18n
@@ -65,7 +65,6 @@ nicolaslopezj:orion-exporter
 
 
 nicolaslopezj:orion-ga
-orionjs:froala
 
 
 #Newer versions of the following indirect dependencies are available:
@@ -74,3 +73,7 @@ orionjs:froala
 #aldeed:tabular@2.1.1
 #froala:editor@2.5.1
 #meteortoys:toykit@3.0.4
+session
+#orionjs:summernote
+#summernote:standalone@0.6.16
+#summernote:standalone@0.8.1
